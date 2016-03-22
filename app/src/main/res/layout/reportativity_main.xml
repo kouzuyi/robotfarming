@@ -10,7 +10,7 @@
     tools:context="com.example.robotfarming.MainActivity">
 
     <TextView
-        android:text="The Setting Activity!"
+        android:text="The Report Activity!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 

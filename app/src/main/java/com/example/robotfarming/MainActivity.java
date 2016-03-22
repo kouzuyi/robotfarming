@@ -13,8 +13,13 @@ public class MainActivity extends AppCompatActivity  {
         setContentView(R.layout.activity_main);
     }
 
-    public void onClick(View view)
+    public void SettingonClick(View view)
     {
         startActivity(new Intent("com.litreily.SettingMainActivity"));
+    }
+
+    public void ReportonClick(View view)
+    {
+        startActivity(new Intent("com.litreily.ReportMainActivity"));
     }
 }

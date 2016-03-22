@@ -18,9 +18,18 @@
 
         <activity
             android:name=".SettingMainActivity"
-            android:label="Setting Main Activity">
+            android:label="Settings">
             <intent-filter>
                 <action android:name="com.litreily.SettingMainActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ReportMainActivity"
+            android:label="Reports">
+            <intent-filter>
+                <action android:name="com.litreily.ReportMainActivity"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>

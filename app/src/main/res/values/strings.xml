@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Robot Farming</string>
-    <string name="settingButton_text">Setting</string>
-    <string name="reportButton_text">Report</string>
+    <string name="settingButton_text">Settings</string>
+    <string name="reportButton_text">Reports</string>
 </resources>

@@ -24,7 +24,8 @@
         android:id="@+id/settingButton"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true"
-        android:onClick="onClick"/>
+        android:onClick="SettingonClick"
+        android:layout_marginTop="10dp"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -32,5 +33,17 @@
         android:text="@string/reportButton_text"
         android:id="@+id/ReportButton"
         android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="ReportonClick"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Cute Farming Robot"
+        android:id="@+id/textView"
+        android:textColor="#e65151"
+        android:textSize="@dimen/abc_text_size_display_1_material"
+        android:layout_alignBottom="@+id/imageView"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
