@@ -26,8 +26,15 @@ public class SettingMainActivity extends AppCompatActivity {
         startActivity(new Intent("com.litreily.waterSettingActivity"));
     }
 
+    public void WeatherButtonClick(View view)
+    {
+        startActivity(new Intent("com.litreily.watherSettingActivity"));
+    }
+
     public void BackButtonClick(View view)
     {
-        finish();
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
     }
 }

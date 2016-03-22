@@ -2,6 +2,8 @@
     <string name="app_name">Robot Farming</string>
     <string name="settingButton_text">Settings</string>
     <string name="reportButton_text">Reports</string>
+    <string name="toggle_c">Celsius</string>
+    <string name="toggle_f">Fahrenheit</string>
 
     <string-array name="times">
         <item >1 Day</item>
