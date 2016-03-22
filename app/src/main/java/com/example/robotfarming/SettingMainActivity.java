@@ -31,6 +31,11 @@ public class SettingMainActivity extends AppCompatActivity {
         startActivity(new Intent("com.litreily.watherSettingActivity"));
     }
 
+    public void MoistureButtonClick(View view)
+    {
+        startActivity(new Intent("com.litreily.moistureSettingActivity"));
+    }
+
     public void BackButtonClick(View view)
     {
         Intent intent = new Intent(this, MainActivity.class);

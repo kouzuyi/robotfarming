@@ -9,15 +9,15 @@ import android.widget.Spinner;
 /**
  * Created by 瑞 on 3/22/2016.
  */
-public class waterSettingActivity extends AppCompatActivity {
-    private Spinner Minspinner;
-    private Spinner Maxspinner;
+public class moistureSettingActivity extends AppCompatActivity {
+    private Spinner Minhumidityspinner;
+    private Spinner Maxhumidityspinner;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.watersettingativity);
-        Minspinner = (Spinner) findViewById(R.id.minpinner);
-        Maxspinner = (Spinner) findViewById(R.id.maxSpinner);
+        setContentView(R.layout.moisturesettingativity);
+        Minhumidityspinner = (Spinner) findViewById(R.id.minHumiditySpinner);
+        Maxhumidityspinner = (Spinner) findViewById(R.id.maxHumiditySpinner);
     }
 
     public void BackButtonClick(View view)

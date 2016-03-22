@@ -58,7 +58,8 @@
         android:id="@+id/moistureButton"
         android:layout_below="@+id/wetherButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="15dp"
+        android:onClick="MoistureButtonClick" />
 
     <Button
         android:layout_width="wrap_content"
