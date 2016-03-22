@@ -37,7 +37,8 @@
         android:layout_below="@+id/cameraButton"
         android:layout_alignStart="@+id/wetherButton"
         android:layout_alignEnd="@+id/wetherButton"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="15dp"
+        android:onClick="WaterButtonClick" />
 
     <Button
         android:layout_width="130dp"

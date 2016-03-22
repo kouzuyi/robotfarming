@@ -21,6 +21,11 @@ public class SettingMainActivity extends AppCompatActivity {
         startActivity(new Intent("com.litreily.cameraSettingActivity"));
     }
 
+    public void WaterButtonClick(View view)
+    {
+        startActivity(new Intent("com.litreily.waterSettingActivity"));
+    }
+
     public void BackButtonClick(View view)
     {
         finish();

@@ -10,4 +10,15 @@
         <item >4 Day</item>
         <item >5 Day</item>
     </string-array>
+
+
+    <string-array name="levels">
+        <item >10 L</item>
+        <item >20 L</item>
+        <item >30 L</item>
+        <item >40 L</item>
+        <item >50 L</item>
+    </string-array>
+
+
 </resources>
