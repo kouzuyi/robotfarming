@@ -19,7 +19,7 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:text="Camera"
         android:id="@+id/cameraButton"
@@ -29,7 +29,7 @@
         android:layout_alignEnd="@+id/waterButton" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:text="Water Tank"
         android:id="@+id/waterButton"
@@ -39,7 +39,7 @@
         android:layout_marginTop="15dp"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:text="Weather"
         android:id="@+id/wetherButton"
@@ -49,7 +49,7 @@
         android:layout_marginTop="15dp"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:text="Soil Moisture"
         android:id="@+id/moistureButton"
