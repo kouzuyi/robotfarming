@@ -46,7 +46,8 @@
         android:id="@+id/waterReportButton"
         android:layout_below="@+id/weatherReportButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="15dp"
+        android:onClick="WaterReportButtonClick" />
 
     <Button
         android:layout_width="130dp"

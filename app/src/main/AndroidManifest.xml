@@ -81,7 +81,7 @@
 
         <activity
             android:name=".MoistureReportActivity"
-            android:label="Crops Photo Reports">
+            android:label="Moisture Reports">
             <intent-filter>
                 <action android:name="com.litreily.MoistureReportActivity"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -90,13 +90,21 @@
 
         <activity
             android:name=".WeatherReportActivity"
-            android:label="Crops Photo Reports">
+            android:label="Weather Reports">
             <intent-filter>
                 <action android:name="com.litreily.WeatherReportActivity"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".WaterReportActivity"
+            android:label="Water Level Reports">
+            <intent-filter>
+                <action android:name="com.litreily.WaterReportActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
         <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
              App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
         <meta-data
