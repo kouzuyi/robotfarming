@@ -14,4 +14,17 @@ public class ReportMainActivity extends AppCompatActivity {
         setContentView(R.layout.reportativity_main);
     }
 
+
+    public void ReportButtonClick(View view)
+    {
+        startActivity(new Intent("com.litreily.CropsReportActivity"));
+    }
+
+    public void BackButtonClick(View view)
+    {
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(intent);
+    }
+
 }
