@@ -25,6 +25,11 @@ public class ReportMainActivity extends AppCompatActivity {
         startActivity(new Intent("com.litreily.MoistureReportActivity"));
     }
 
+    public void WeatherReportButtonClick(View view)
+    {
+        startActivity(new Intent("com.litreily.WeatherReportActivity"));
+    }
+
     public void BackButtonClick(View view)
     {
         Intent intent = new Intent(this, MainActivity.class);

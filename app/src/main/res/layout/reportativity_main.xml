@@ -36,7 +36,8 @@
         android:id="@+id/weatherReportButton"
         android:layout_below="@+id/moistureReportButton"
         android:layout_alignStart="@+id/moistureReportButton"
-        android:layout_marginTop="15dp" />
+        android:layout_marginTop="15dp"
+        android:onClick="WeatherReportButtonClick" />
 
     <Button
         android:layout_width="130dp"
