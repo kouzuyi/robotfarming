@@ -15,9 +15,14 @@ public class ReportMainActivity extends AppCompatActivity {
     }
 
 
-    public void ReportButtonClick(View view)
+    public void CropsReportButtonClick(View view)
     {
         startActivity(new Intent("com.litreily.CropsReportActivity"));
+    }
+
+    public void MoistureReportButtonClick(View view)
+    {
+        startActivity(new Intent("com.litreily.MoistureReportActivity"));
     }
 
     public void BackButtonClick(View view)
