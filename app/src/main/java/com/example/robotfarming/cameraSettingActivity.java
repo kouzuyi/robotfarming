@@ -6,11 +6,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Spinner;
 
+import com.example.robotfarming.model.CCropModel;
+
 
 /**
  * Created by 瑞 on 3/21/2016.
  */
 public class cameraSettingActivity extends AppCompatActivity {
+
+    private CCropModel cCropModel;
 
     private Spinner spinner;
 

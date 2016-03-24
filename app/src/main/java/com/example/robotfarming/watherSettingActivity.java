@@ -8,10 +8,13 @@ import android.widget.CompoundButton;
 import android.widget.Spinner;
 import android.widget.ToggleButton;
 
+import com.example.robotfarming.model.CWeatherModel;
+
 /**
  * Created by 瑞 on 3/22/2016.
  */
 public class watherSettingActivity extends AppCompatActivity {
+    private CWeatherModel cWeatherModel;
 
     ToggleButton toggle;
     protected void onCreate(Bundle savedInstanceState) {

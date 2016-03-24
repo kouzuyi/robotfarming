@@ -6,10 +6,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Spinner;
 
+import com.example.robotfarming.model.CMoistureModel;
+
 /**
  * Created by 瑞 on 3/22/2016.
  */
 public class moistureSettingActivity extends AppCompatActivity {
+    private CMoistureModel moistureModel;
     private Spinner Minhumidityspinner;
     private Spinner Maxhumidityspinner;
 

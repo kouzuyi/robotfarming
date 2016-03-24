@@ -6,10 +6,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Spinner;
 
+import com.example.robotfarming.model.CWaterModel;
+
+
 /**
  * Created by 瑞 on 3/22/2016.
  */
 public class waterSettingActivity extends AppCompatActivity {
+    private CWaterModel cWaterModel;
     private Spinner Minspinner;
     private Spinner Maxspinner;
 
